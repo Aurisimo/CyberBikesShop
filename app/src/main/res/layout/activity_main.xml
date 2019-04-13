@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Bike" />
+        app:srcCompat="@drawable/bike" />
 
     <TextView
         android:id="@+id/titleTextView"
@@ -46,7 +46,7 @@
 
             <ImageView
                 android:id="@+id/descriptionImageView"
-                android:layout_width="0"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_margin="8dp"
@@ -54,7 +54,7 @@
 
             <TextView
                 android:id="@+id/descriptionTextView"
-                android:layout_width="0"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_weight="5"
@@ -71,7 +71,7 @@
 
             <ImageView
                 android:id="@+id/clockImageView"
-                android:layout_width="0"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_margin="8dp"
@@ -79,7 +79,7 @@
 
             <TextView
                 android:id="@+id/workingHoursTextView"
-                android:layout_width="0"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_weight="5"
@@ -96,7 +96,7 @@
 
             <ImageView
                 android:id="@+id/locationImageView"
-                android:layout_width="0"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_margin="8dp"
@@ -104,7 +104,7 @@
 
             <TextView
                 android:id="@+id/addressTextView"
-                android:layout_width="0"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_weight="5"
